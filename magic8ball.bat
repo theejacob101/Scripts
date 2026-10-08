@@ -1,7 +1,7 @@
 cls
 @echo off
 chcp 65001 >nul
-Title cmd.exe - magic8ball
+Title magic8ball
 
 
 echo.
@@ -15,10 +15,9 @@ echo ░  ░      ░  ▒   ▒▒ ░  ░   ░  ▒ ░  ░  ▒       ░
 echo ░      ░     ░   ▒   ░ ░   ░  ▒ ░░              ░    ▒ ░░ ░   ░  ░  ░░ ░  ░          ░    ░   ░   ▒     ░ ░     ░ ░      
 echo        ░         ░  ░      ░  ░  ░ ░            ░  ░ ░        ░  ░  ░  ░             ░            ░  ░    ░  ░    ░  ░   
 echo                                ░                                                        ░                              
-
-
 echo.
 echo.
+echo [92mDevloped by @theejacob101 on GitHub[0m
 echo.
 echo Use the Magic 8 Ball to answer your yes or no questions.
 echo.

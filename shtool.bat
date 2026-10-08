@@ -1,7 +1,7 @@
 cls
 @echo off
 chcp 65001 >nul
-title cmd.exe - shtool
+title shtool
 
 echo.
 echo ███████╗██╗  ██╗██╗   ██╗████████╗     ██████╗  ██████╗ ██╗    ██╗███╗   ██╗   ████████╗ ██████╗  ██████╗ ██╗     
@@ -13,6 +13,7 @@ echo ╚╝╝╝╝╝╝╝╚╝╝  ╚╝╝ ╚╝╝╝╝╝╝    ╚�
 
 echo.
 echo.
+echo [92mDevloped by @theejacob101 on GitHub[0m
 echo.
 echo Shutdown-Tool can be used to shutdown a PC with a set amount of time.
 echo.

@@ -1,6 +1,6 @@
 cls
 @echo off
-title cmd.exe - exptrack
+title exptrack
 
 echo ===================================
 echo         [91mExpense Tracker[0m

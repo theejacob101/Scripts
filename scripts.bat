@@ -1,6 +1,8 @@
 cls
 @echo off
+title Scripts
 cd %~dp0
+echo [92mDevloped by @theejacob101 on GitHub[0m
 echo.
 echo.
 echo Press the number of the script you wish to use.

@@ -1,11 +1,14 @@
 cls
 @if /f %1 EQU -keepres goto keepres
 @mode 38,25
+@title Network Info
+
 :keepres
 @echo off
 echo Checking network info...
 set uptct=0
 set pserver=8.8.8.8
+
 :loop
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^|find "SSID" ^|findstr /v "BSSID"') do set SSID=%%a
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^|find "Authentication"') do set SUCTYPE=%%a
@@ -14,16 +17,19 @@ for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^|find "State"') d
 for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^|find "Signal"') do set SIGNAL=%%a
 for /f "tokens=4 delims==" %%a in ('ping %pserver% ^| find "Average"') do set ping=%%a 
 set /a uptct=%uptct% + 1
+
+:: Connection Check
 if /I %STATE% EQU connected (
 set STATEDIS=Connected
  ) else (
  set STATEDIS=Disconnected
  )
+ 
 cls
-::MENU DISPLAY
+:: Menu Display
 echo   __________Network__________
 echo Name:               %SSID%
-echo Sercurity:          %SUCTYPE%
+echo Security:          %SUCTYPE%
 echo Network Band:       %BAND%
 echo.
 echo   _______Connectivity_______
@@ -34,4 +40,5 @@ echo.
 echo  __________Advanced__________
 echo Updated at %time% [%uptct%]
 echo Pinging: %pserver%
+
 goto loop
