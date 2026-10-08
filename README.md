@@ -1,6 +1,6 @@
 # Scripts
 
-This project is just a few rando scripts I made when I was learning batch.
+This project is just a few random scripts I made when I was learning batch.
 
 |Script|Description|
 |-|-|
