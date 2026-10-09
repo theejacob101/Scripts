@@ -19,14 +19,16 @@ choice /c 1234567 /n
 
 if %errorlevel% EQU 1 call shtool.bat
 
-if %errorlevel% EQU 2 call usbackup
+if %errorlevel% EQU 2 call usbackup.bat
 
-if %errorlevel% EQU 3 call magic8ball
+if %errorlevel% EQU 3 call magicball.bat
 
-if %errorlevel% EQU 4 call exptrack
+if %errorlevel% EQU 4 call exptrack.bat
 
-if %errorlevel% EQU 5 call netinf
+if %errorlevel% EQU 5 call netinf.bat
 
-if %errorlevel% EQU 6 call define
+if %errorlevel% EQU 6 call define.bat
 
-if %errorlevel% EQU 7 call downclear
+if %errorlevel% EQU 7 call downclear.bat
+
+pause
