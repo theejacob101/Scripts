@@ -51,5 +51,5 @@ echo.
 
 echo Would you like to try again?
 choice
-if /I %ERRORLEVEL% EQU 1 call magic8ball 
+if /I %ERRORLEVEL% EQU 1 call magicball 
 call scripts
