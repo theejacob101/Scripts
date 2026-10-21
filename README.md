@@ -6,7 +6,7 @@ This project is just a few random scripts I created when I was learning batch.
 |-|-|
 |🔍 Define|Pulls up a dictionary definition of the inputted word on google then kills it.|
 |🗑️ DownClear|Empties your user download directory.|
-|💰 ExpenceTracker|Tracks expenses in a CSV file.|
+|💰 ExpenceTracker|Tracks expenses in a **CSV** file.|
 |🎱 Magic Eight Ball|A magic eight ball in your command line.|
 |📶 NetInf|Shows information about your network.|
 |📜 Scripts|A menu to show all of the scripts.|
