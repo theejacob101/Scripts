@@ -1,10 +1,10 @@
 # Scripts
 
-This project is just a few random scripts I made when I was learning batch.
+This project is just a few random scripts I created when I was learning batch.
 
 |Script|Description|
 |-|-|
-|🔍 Define|Pulls up a dictionary definition of the inputted word.|
+|🔍 Define|Pulls up a dictionary definition of the inputted word on google then kills it.|
 |🗑️ DownClear|Empties your user download directory.|
 |💰 ExpenceTracker|Tracks expenses in a CSV file.|
 |🎱 Magic Eight Ball|A magic eight ball in your command line.|
